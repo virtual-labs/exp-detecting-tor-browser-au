@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What information can be obtained from a prefetch file when analyzing the presence of the TOR browser?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The contents of all visited websites",
+        "b": "The executable name, path, and the number of times the application was run",
+        "c": "The encryption key used by the TOR browser",
+        "d": "The user's browsing history"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Prefetch files do not store the contents of visited websites.",
+        "b": "Correct. Prefetch files provide details about the executable name, path, and execution history, which are crucial for detecting the TOR browser.",
+        "c": "Prefetch files do not contain encryption keys.",
+        "d": "Prefetch files do not store browsing history directly."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which tool is used to analyze prefetch files for detecting the TOR browser?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Wireshark",
+        "b": "PEcmd",
+        "c": "Process Monitor",
+        "d": "Netcat"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Wireshark is used for network traffic analysis, not prefetch file analysis.",
+        "b": "Correct. PEcmd is used to parse and analyze prefetch files, providing detailed information about application usage.",
+        "c": "Process Monitor tracks real-time system activity but is not used for analyzing prefetch files.",
+        "d": "Netcat is a networking tool, not related to prefetch file analysis."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How can the netstat command be useful in detecting TOR browser activity?",
+      "answers": {
+        "a": "It logs all user interactions with the TOR browser",
+        "b": "It displays active network connections and ports used by the TOR browser",
+        "c": "It decrypts the traffic between the TOR browser and websites",
+        "d": "It blocks TOR browser from accessing the internet"
+      },
+      "explanations": {
+        "a": "Netstat does not log user interactions.",
+        "b": "Correct. Netstat displays active network connections and ports, helping to monitor TOR browser activity.",
+        "c": "Netstat does not decrypt traffic; it only shows connection details.",
+        "d": "Netstat does not block applications, it monitors network connections."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

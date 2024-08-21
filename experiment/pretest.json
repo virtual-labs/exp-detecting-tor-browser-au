@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of the TOR browser?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To increase browsing speed",
+        "b": "To enhance online privacy and anonymity",
+        "c": "To block ads on websites",
+        "d": "To automatically download files from the internet"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "TOR is not designed to increase browsing speed; in fact, it may slow it down due to routing traffic through multiple nodes.",
+        "b": "Correct. The TOR browser is primarily used to enhance online privacy and anonymity by routing traffic through a network of servers.",
+        "c": "While TOR may block some tracking elements, ad-blocking is not its main purpose.",
+        "d": "TOR does not automatically download files; it is a browser focused on privacy."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is a prefetch file in the context of the Windows operating system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A file that stores a user's passwords",
+        "b": "A temporary file used by web browsers to store cache",
+        "c": "A file that helps the operating system load applications more quickly by storing metadata",
+        "d": "A configuration file for system settings"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Prefetch files do not store passwords.",
+        "b": "While browsers use cache, prefetch files are not used for this purpose.",
+        "c": "Correct. A prefetch file helps the operating system load applications more quickly by storing metadata about the application's usage.",
+        "d": "Prefetch files are not configuration files."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which command-line utility can be used to monitor active network connections on a Windows machine?",
+      "answers": {
+        "a": "dir",
+        "b": "ping",
+        "c": "netstat",
+        "d": "ipconfig"
+      },
+      "explanations": {
+        "a": "The 'dir' command is used to list directory contents.",
+        "b": "The 'ping' command tests connectivity to other network hosts.",
+        "c": "Correct. 'netstat' is used to monitor active network connections and ports on a machine.",
+        "d": "The 'ipconfig' command displays the network configuration, but does not monitor active connections."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
