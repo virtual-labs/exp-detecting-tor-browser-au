@@ -51,6 +51,57 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What does the PEcmd tool primarily help with in digital forensics?",
+      "answers": {
+        "a": "Blocking internet access",
+        "b": "Parsing and analyzing Windows Prefetch files",
+        "c": "Encrypting files on a system",
+        "d": "Monitoring CPU usage"
+      },
+      "explanations": {
+        "a": "PEcmd does not block internet access.",
+        "b": "Correct. PEcmd is used to parse and analyze Prefetch files to extract execution metadata for forensic investigations.",
+        "c": "PEcmd is not an encryption tool.",
+        "d": "CPU monitoring is not the function of PEcmd."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why might organizations be concerned about the presence of the TOR browser on a machine?",
+      "answers": {
+        "a": "Because it reduces internet speed",
+        "b": "Because it can interfere with software updates",
+        "c": "Because it could indicate potential insider threats or data exfiltration",
+        "d": "Because it installs malware automatically"
+      },
+      "explanations": {
+        "a": "While TOR might slow browsing, speed is not the primary concern for organizations.",
+        "b": "TOR typically does not interfere with software updates.",
+        "c": "Correct. Organizations may see TOR as a sign of attempts to bypass network policies, leak data, or engage in malicious activities.",
+        "d": "TOR does not install malware by default."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the main function of the Tor network in terms of privacy?",
+      "answers": {
+        "a": "Provides a free VPN service",
+        "b": "Uses ad blockers to protect identity",
+        "c": "Routes traffic through multiple relays to mask IP addresses",
+        "d": "Encrypts only the browser’s cache files"
+      },
+      "explanations": {
+        "a": "TOR is not a VPN service, though it provides similar anonymity.",
+        "b": "TOR does not primarily rely on ad blocking for privacy.",
+        "c": "Correct. TOR achieves privacy by routing traffic through multiple relays, making it hard to trace the original IP.",
+        "d": "TOR provides encryption for network traffic, not just browser cache."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
