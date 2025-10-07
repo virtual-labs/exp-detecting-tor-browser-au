@@ -1,4 +1,4 @@
-### Procedure
+
 
 Tor Browser provides a valuable tool for individuals seeking to protect their privacy and anonymity online, particularly in environments with restricted internet access, pervasive surveillance, or censorship.
 

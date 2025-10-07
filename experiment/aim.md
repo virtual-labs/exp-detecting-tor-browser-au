@@ -1,4 +1,4 @@
-<h3>Aim of the experiment</h3>
+
 To detect the presence of the Tor Browser on a machine by examining prefetch files and related system artifacts, enabling early identification of potential security risks and ensuring adherence to organizational cybersecurity policies.
 <p>
 Identifying the use of Tor Browser is crucial in environments where secure data handling and monitoring of anonymous communications are critical. This aids in:</P>
